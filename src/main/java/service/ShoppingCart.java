@@ -30,7 +30,6 @@ public class ShoppingCart {
 
     public double getSumVegProd() {
         double sum = 0;
-        ;
         for (int i = 0; i < food.length; i++) {
             if (food[i].isVegetarian()) {
                 sum = sum + food[i].getAmount() * food[i].getPrice();
